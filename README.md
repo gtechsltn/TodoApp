@@ -1,7 +1,24 @@
 ## Todo application with ASP.NET Core
 
+https://github.com/gtechsltn/Todos
+
+https://github.com/gtechsltn/TodoApp
+
+https://github.com/gtechsltn/feedbackflow
+
+https://github.com/gtechsltn/RepoAnalysis
+
+https://github.com/gtechsltn/DotNetCodingPatterns
+
+https://github.com/gtechsltn/BedrockFramework
+
+https://github.com/gtechsltn/AzGitConnect
+
+https://github.com/gtechsltn/EFCoreExperiments
+
 ```
 git clone https://github.com/davidfowl/TodoApp.git
+git clone https://github.com/davidfowl/Todos.git
 ```
 
 [![CI](https://github.com/davidfowl/TodoApp/actions/workflows/ci.yaml/badge.svg)](https://github.com/davidfowl/TodoApi/actions/workflows/ci.yaml)
