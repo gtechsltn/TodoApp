@@ -1,0 +1,22 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v3
+
+    - name: Restore dependencies
+      run: dotnet restore TodoApp.sln
+ 
+    - name: dotnet build
+      run: dotnet build TodoApp.sln -c Release --no-restore
+
+    - name: dotnet test
+      run: dotnet test TodoApp.sln -c Release --no-build

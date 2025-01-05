@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" PrivateAssets="all" />
+    <PackageReference Include="coverlet.collector" PrivateAssets="all" />
+    <ProjectReference Include="..\Todo.Api\Todo.Api.csproj" />
+  </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="System.Net.Http.Json" />
+        <Using Include="System.Net.Http" />
+        <Using Include="System.Net" />
+        <Using Include="Xunit" />
+    </ItemGroup>
+
+</Project>
