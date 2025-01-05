@@ -1,5 +1,9 @@
 ## Todo application with ASP.NET Core
 
+```
+git clone https://github.com/davidfowl/TodoApp.git
+```
+
 [![CI](https://github.com/davidfowl/TodoApp/actions/workflows/ci.yaml/badge.svg)](https://github.com/davidfowl/TodoApi/actions/workflows/ci.yaml)
 
 This is a Todo application that features:
